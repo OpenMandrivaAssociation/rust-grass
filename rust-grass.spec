@@ -22,6 +22,9 @@ A deviation from the dart-sass implementation can be considered a bug except for
 %cargo_prep -v vendor
 
 %build
-%cargo_build 
+%cargo_build
+
+%install
+%cargo_install
 
 %files
