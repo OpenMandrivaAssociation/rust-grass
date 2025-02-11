@@ -25,6 +25,7 @@ A deviation from the dart-sass implementation can be considered a bug except for
 %cargo_build
 
 %install
-%cargo_install
+#cargo_install
+install -Dm755 target/release/grass %{buildroot}%{_bindir}/grass
 
 %files
