@@ -29,3 +29,4 @@ A deviation from the dart-sass implementation can be considered a bug except for
 install -Dm755 target/release/grass %{buildroot}%{_bindir}/grass
 
 %files
+%{_bindir}/grass
