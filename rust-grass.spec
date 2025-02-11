@@ -18,7 +18,7 @@ This crate aims to achieve complete feature parity with the dart-sass reference 
 A deviation from the dart-sass implementation can be considered a bug except for in the case of error messages and error spans.
 
 %prep
-%autosetup -a1
+%autosetup -n grass-%{version} -a1
 %cargo_prep -v vendor
 
 %build
